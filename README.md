@@ -39,7 +39,7 @@ This project showcases the capabilities of SwiftUI as a design tool for creating
 
 ## Installation and Usage
 
-To experience EventosSanPedro:
+To experience SanPedro:
 
 1. Clone the GitHub repository: git clone https://github.com/yourusername/SanPedro.git
 2. Open the project in Xcode.
