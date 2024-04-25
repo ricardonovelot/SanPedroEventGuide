@@ -1,4 +1,4 @@
-# SanPedro
+# San Pedro - Event Guide for San Pedro City
 
 <table>
 <tr>
@@ -6,7 +6,7 @@
 
 ## About the Project
 
-SanPedro is an iOS app designed to provide residents of San Pedro with information on local events. 
+SanPedro is an iOS app designed to inform San Pedro residents about upcoming events 
 
 This project showcases the capabilities of SwiftUI as a design tool for creating beautiful, efficient, and user-friendly interfaces.
 
