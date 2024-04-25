@@ -1,65 +1,82 @@
 //
-//  CarouselItemView.swift
+//  CarouselView.swift
 //  EventosSanPedro
 //
-//  Created by Ricardo on 08/03/24.
+//  Created by Ricardo on 09/03/24.
 //
 
+import SwiftData
 import SwiftUI
-import CoreLocation
 
 struct CarouselItemView: View {
-    var item: Event
-
+    var occurrence: Occurrence
+    
     var body: some View {
-        VStack(alignment: .leading) {
-            Spacer()
-            Text(item.description ?? "")
-                .font(.caption)
-                .foregroundColor(.white)
-                .padding(5)
-                .clipShape(Capsule())
-            Text(item.title)
-                .font(.title)
-                .fontWeight(.bold)
-                .foregroundColor(.white)
-                .padding(.bottom)
-        }
-        .padding()
-        .background(
-            AsyncImage(url: URL(string: "https://cms-api.sanpedro.gob.mx/storage/component_images/4c82444c-f93c-4ba2-8fef-2e0a02522806.jpeg"), scale: 1) { image in
-                image
-                .resizable()
-                .scaledToFill()
-            } placeholder: {
-                ProgressView()
+        ZStack{
+            Color(.black).opacity(0.3)
+                .mask(LinearGradient(gradient: Gradient(colors: [.black, .black, .clear, .clear]), startPoint: .bottom, endPoint: .top))
+            
+            VStack(alignment: .leading) {
+                Spacer()
+                Text(occurrence.subtitle ?? "")
+                    .font(.caption)
+                    .foregroundColor(.white)
+                    .padding(.bottom, 0.3)
+                    .lineLimit(2)
+                Text(occurrence.title)
+                    .minimumScaleFactor(0.1)
+                    .lineLimit(2)
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .foregroundColor(.white)
             }
-                
+            .padding(.horizontal, 16)
+            .padding(.bottom, 20)
+        }
+        .frame(width: 200, height: 300)
+        .background(
+            AsyncImage(url: occurrence.imageURL, scale: 1) { image in
+                image
+                    .resizable()
+                    .scaledToFill()
+            } placeholder: {
+                Image(occurrence.imageFallback ?? "DefaultImg" )
+                    .resizable()
+                    .scaledToFill()
+            }
+                .glur(radius: 15.0, offset: 0.54, interpolation: 0.5, direction: .down)
         )
+        
         .cornerRadius(20)
-        .shadow(radius: 10)
-        .padding(.horizontal)
+        
+        
+//        VStack(alignment:.leading){
+//            Text("Destacadoss")
+//                .font(.title2)
+//                .bold()
+//                .padding(.horizontal, 20)
+//            ScrollView(.horizontal) {
+//                HStack(spacing:16){
+//                    ForEach(occurrences) { item in
+//                        NavigationLink(value: item){
+//                            CarouselItemView()
+//                        }
+//                    }
+//                }
+//                .padding(.leading, 20)
+//            }
+//            .shadow(radius: 6)
+//            .navigationDestination(for: Occurrence.self, destination: { occurrence in
+//                EventDetailView(occurrence: occurrence)
+//            })
+//        }
+        
+        
+        
     }
 }
 
 #Preview {
-    let sampleEvent = Event(
-        id: UUID(),
-        title: "San Pedro de Pinta",
-        description: "Acompañanos cada domingo con tu familia y amigos",
-        date: Calendar.current.date(byAdding: .day, value: 5, to: Date())!,
-        endDate: nil,
-        startTime: Calendar.current.date(byAdding: .hour, value: 8, to: Date())!,
-        endTime: Calendar.current.date(byAdding: .hour, value: 11, to: Date())!,
-        location: UUID(),
-        subLocation: "Main Park",
-        coordinates: CLLocationCoordinate2D(latitude: 40.7128, longitude: -74.0060),
-        category: "Physical Activity",
-        isClubEvent: false,
-        club: nil,
-        recurringInfo: "Yearly",
-        popularity: 100
-    )
-    
-    return CarouselItemView(item: sampleEvent)
+    CarouselView()
+         .modelContainer(PreviewContainer)
 }
