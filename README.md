@@ -12,7 +12,7 @@ This project showcases the capabilities of SwiftUI as a design tool for creating
 
 ### Current Features
 
-- **Dynamic Event Listings:** Sorts events into categories with details on date, location, and time, leveraging SwiftUI's powerful UI capabilities.
+- **Dynamic Event Listings:** Sorts events into categories with details on date, location, and time, leveraging SwiftUI and SwiftData capabilities.
 - **Local Venue Insights:** Details on event venues including navigation options and upcoming event schedules.
 
 ### Planned Features
