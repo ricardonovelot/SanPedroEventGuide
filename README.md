@@ -29,7 +29,7 @@ SanPedro is an iOS app designed to provide residents of San Pedro with informati
 </td>
 <td>
 
-<img width="413" alt="exportE8F60CE3-B10F-4F83-93CE-4689490F2191" src="https://github.com/ricardonovelot/EventosSanPedro/assets/84286086/f582f6ef-5b37-4587-81c0-c827469adf5a">
+<img src="https://github.com/ricardonovelot/EventosSanPedro/assets/84286086/f582f6ef-5b37-4587-81c0-c827469adf5a">
 
 </td>
 </tr>
