@@ -23,10 +23,8 @@ This project showcases the capabilities of SwiftUI as a design tool for creating
 
 ### Technical Highlights
 
-- MVVM
 - SwiftUI
 - SwiftData
-- Package Dependencies
   
 </td>
 <td>
