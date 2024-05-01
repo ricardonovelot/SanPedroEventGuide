@@ -12,14 +12,15 @@ This project showcases the capabilities of SwiftUI as a design tool for creating
 
 ### Current Features
 
-- **Event Listings:** Sorts events into categories with details on date, location, and time, leveraging SwiftUI and SwiftData capabilities.
-- **Local Insights:** Details on event venues including navigation options and upcoming event schedules.
+- **Events Feed:** Sorts events into categories.
+- **Events Details:** Details on event venues including navigation options and upcoming event schedules.
 
 ### Planned Features
 
-- **User Customization:** Tailors the "Today's" tab based on users' preferred event categories using SwiftUI's state management features.
-- **Integrated Calendar and Notifications:** Future integration with iOS Calendar for tracking events and real-time notifications for event updates.
-- **Club Membership:** Will allow users to subscribe to club memberships.
+- **User Customization:** Tailors the "Today's" tab based on users' preferred event categories.
+- **Integrated Calendar:** Integration with iOS Calendar for tracking events.
+- **Notifications:**: Real-time notifications for event updates.
+- **Groups:** Allow users to subscribe to groups.
 
 ### Technical Highlights
 
