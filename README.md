@@ -1,4 +1,4 @@
-# San Pedro - Event Guide for San Pedro City
+# San Pedro - City Event Guide
 
 <table>
 <tr>
