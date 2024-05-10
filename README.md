@@ -47,16 +47,6 @@ To experience SanPedro:
 
 Ensure your development environment is up-to-date, including the latest version of Xcode and iOS.
 
-## Contributing
-
-Contributions are greatly appreciated. Follow these steps to contribute:
-
-Fork the project repository.
-Create your feature branch (git checkout -b feature/YourFeature).
-Commit your changes (git commit -am 'Add some YourFeature').
-Push to the branch (git push origin feature/YourFeature).
-Submit a Pull Request.
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
