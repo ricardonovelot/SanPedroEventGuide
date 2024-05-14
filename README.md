@@ -10,13 +10,13 @@ San Pedro is an iOS app designed to provide information on local events.
 
 This project showcases the capabilities of SwiftUI as a design tool for creating beautiful, efficient, and user-friendly interfaces.
 
-### Current Features
+### Features
 
-- **Events Feed:** Sorts events into categories.
-- **Events Details:** Details on event venues including navigation options and upcoming event schedules.
+- **Events Feed:** Explore relevant events organized by category
 
 ### Planned Features
 
+- **Events Details:** Details on event venues including navigation options and upcoming event schedules.
 - **User Customization:** Tailors the "Today's" tab based on users' preferred event categories.
 - **Integrated Calendar:** Integration with iOS Calendar for tracking events.
 - **Notifications:**: Real-time notifications for event updates.
@@ -26,6 +26,8 @@ This project showcases the capabilities of SwiftUI as a design tool for creating
 
 - SwiftUI
 - SwiftData
+
+As showcased in my [recent projects](https://github.com/ricardonovelot)
   
 </td>
 <td>
