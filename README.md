@@ -41,7 +41,7 @@
 
 <h2>Installation and Usage</h2>
 <ol>
-<li>Clone the GitHub repository: <code>git clone https://github.com/yourusername/SanPedro.git</code></li>
+<li>Clone the GitHub repository.</li>
 <li>Open the project in Xcode.</li>
 <li>Choose your target device or simulator.</li>
 <li>Build and run the application.</li>
