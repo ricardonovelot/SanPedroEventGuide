@@ -22,11 +22,11 @@
 
 <h3>Planned Features</h3>
 <ul>
-<li><strong>Events Details:</strong> </li>
-<li><strong>User Customization:</strong> </li>
-<li><strong>Integrated Calendar:</strong> </li>
-<li><strong>Notifications:</strong></li>
-<li><strong>Groups:</strong></li>
+<li><strong>Events Details</strong> </li>
+<li><strong>User Customization</strong> </li>
+<li><strong>Integrated Calendar</strong> </li>
+<li><strong>Notifications</strong></li>
+<li><strong>Groups</strong></li>
 </ul>
 <br>
 
