@@ -1,58 +1,58 @@
-# San Pedro - City Event Guide
+<h3><a href="https://github.com/ricardonovelot">❮‎‎‎ &nbsp; Recent Projects</a></h3>
+
+<h1>San Pedro - City Event Guide</h1>
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
-## About the Project
+<h2>About the Project</h2>
+<p>San Pedro is an iOS app designed to provide information on local events.</p>
+<p>This project showcases the capabilities of SwiftUI as a design tool for creating beautiful, efficient, and user-friendly interfaces.</p>
 
-San Pedro is an iOS app designed to provide information on local events.
+<h3>Features</h3>
+<ul>
+<li><strong>Events Feed:</strong> Explore relevant events organized by category</li>
+</ul>
 
-This project showcases the capabilities of SwiftUI as a design tool for creating beautiful, efficient, and user-friendly interfaces.
+<h3>Planned Features</h3>
+<ul>
+<li><strong>Events Details:</strong> Details on event venues including navigation options and upcoming event schedules.</li>
+<li><strong>User Customization:</strong> Tailors the "Today's" tab based on users' preferred event categories.</li>
+<li><strong>Integrated Calendar:</strong> Integration with iOS Calendar for tracking events.</li>
+<li><strong>Notifications:</strong> Real-time notifications for event updates.</li>
+<li><strong>Groups:</strong> Allow users to subscribe to groups.</li>
+</ul>
 
-### Features
+<h3>Technical Highlights</h3>
+<ul>
+<li>SwiftUI</li>
+<li>SwiftData</li>
+</ul>
+<br>
 
-- **Events Feed:** Explore relevant events organized by category
-
-### Planned Features
-
-- **Events Details:** Details on event venues including navigation options and upcoming event schedules.
-- **User Customization:** Tailors the "Today's" tab based on users' preferred event categories.
-- **Integrated Calendar:** Integration with iOS Calendar for tracking events.
-- **Notifications:**: Real-time notifications for event updates.
-- **Groups:** Allow users to subscribe to groups.
-
-### Technical Highlights
-
-- SwiftUI
-- SwiftData
-
-As showcased in my [recent projects](https://github.com/ricardonovelot)
-  
 </td>
-<td>
-
-<img src="https://github.com/ricardonovelot/EventosSanPedro/assets/84286086/f582f6ef-5b37-4587-81c0-c827469adf5a">
-
+<td valign="top">
+<img src="https://github.com/ricardonovelot/EventosSanPedro/assets/84286086/f582f6ef-5b37-4587-81c0-c827469adf5a" width="500">
 </td>
 </tr>
 </table>
+<br>
 
-## Installation and Usage
+<h2>Installation and Usage</h2>
+<ol>
+<li>Clone the GitHub repository: <code>git clone https://github.com/yourusername/SanPedro.git</code></li>
+<li>Open the project in Xcode.</li>
+<li>Choose your target device or simulator.</li>
+<li>Build and run the application.</li>
+</ol>
+<p>Ensure your development environment is up-to-date, including the latest version of Xcode and iOS.</p>
+<br>
 
-To experience SanPedro:
+<h2>License</h2>
+<p>This project is licensed under the MIT License - see the LICENSE.md file for details.</p>
+<br>
 
-1. Clone the GitHub repository: git clone https://github.com/yourusername/SanPedro.git
-2. Open the project in Xcode.
-3. Select your target device or simulator.
-4. Build and run the application.
-
-Ensure your development environment is up-to-date, including the latest version of Xcode and iOS.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-## Acknowledgments
-
-Special thanks to the SwiftUI and Swift developer community for continuous support and resources.
+<h2>Acknowledgments</h2>
+<p>Special thanks to the SwiftUI and Swift developer community for continuous support and resources.</p>
+<br>
