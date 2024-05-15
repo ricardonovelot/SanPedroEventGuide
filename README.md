@@ -22,11 +22,11 @@
 
 <h3>Planned Features</h3>
 <ul>
-<li><strong>Events Details:</strong> Details on event venues including navigation options and upcoming event schedules.</li>
-<li><strong>User Customization:</strong> Tailors the "Today's" tab based on users' preferred event categories.</li>
-<li><strong>Integrated Calendar:</strong> Integration with iOS Calendar for tracking events.</li>
-<li><strong>Notifications:</strong> Real-time notifications for event updates.</li>
-<li><strong>Groups:</strong> Allow users to subscribe to groups.</li>
+<li><strong>Events Details:</strong> </li>
+<li><strong>User Customization:</strong> </li>
+<li><strong>Integrated Calendar:</strong> </li>
+<li><strong>Notifications:</strong></li>
+<li><strong>Groups:</strong></li>
 </ul>
 <br>
 
