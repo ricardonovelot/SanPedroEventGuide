@@ -55,3 +55,8 @@
 <h2>Acknowledgments</h2>
 <p>Special thanks to the SwiftUI and Swift developer community for continuous support and resources.</p>
 <br>
+
+<br>
+<h3 align="center"><a href="https://github.com/ricardonovelot">Go Back to Recent Projects ↩</a></h3>
+<br>
+
