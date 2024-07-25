@@ -7,7 +7,7 @@
 <td valign="top">
 
 <h2>About the Project</h2>
-<p>San Pedro is an iOS app designed to provide information on local events.</p>
+<p>San Pedro is an iOS app concept designed to provide information on local events.</p>
 
 <h3>Features</h3>
 <ul>
