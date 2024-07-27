@@ -26,7 +26,7 @@
 <li><strong>User Customization</strong> </li>
 <li><strong>Integrated Calendar</strong> </li>
 <li><strong>Notifications</strong></li>
-<li><strong>Groups</strong></li>
+<li><strong>Clubs</strong></li>
 </ul>
 <br>
 
