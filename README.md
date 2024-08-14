@@ -38,22 +38,8 @@
 </table>
 <br>
 
-<h2>Installation and Usage</h2>
-<ol>
-<li>Clone the GitHub repository.</li>
-<li>Open the project in Xcode.</li>
-<li>Choose your target device or simulator.</li>
-<li>Build and run the application.</li>
-</ol>
-<p>Ensure your development environment is up-to-date, including the latest version of Xcode and iOS.</p>
-<br>
-
 <h2>License</h2>
 <p>This project is licensed under the MIT License - see the LICENSE.md file for details.</p>
-<br>
-
-<h2>Acknowledgments</h2>
-<p>Special thanks to the SwiftUI and Swift developer community for continuous support and resources.</p>
 <br>
 
 <br>
